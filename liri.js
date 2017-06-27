@@ -3,7 +3,7 @@ var fs = require('fs'); // files system request
 var request = require('request');
 var keys = require('./keys.js');
 var twitter = require('twitter');
-var spotify = require('spotify');
+var spotify = require('node-spotify-api');
 var liriArg = process.argv[2];
 
 // Tweet function, uses the Twitter module to call the Twitter api
@@ -38,7 +38,7 @@ function myTweets() {
     });
 }
 
-// Spotify function, uses the Spotify module to call the Spotify api
+// Spotify function, uses the node-Spotify-api module to call the Spotify api
 var spotifyMe = new spotify({
   id: keys.spotifykeys.client_id,
   secret: keys.spotifykeys.client_secret,
@@ -49,7 +49,7 @@ function spotifyThisSong(songName) {
         songName = "The Sign";
     }
     params = songName;
-    spotify.search({ type: "track", query: params }, function(err, data) {
+    spotifyMe.search({ type: "track", query: params }, function(err, data) {
         if(!err){
           var songInfo = data.tracks.items;
             for (var i = 0; i < 5; i++) {
@@ -70,24 +70,7 @@ function spotifyThisSong(songName) {
         }
     });
 };
-
-// var Spotify = require('node-spotify-api');
- 
-// var spotify = new Spotify({
-//   id: '7e7e50db54ad47798606dc042e124a51',
-//   secret: '50e5a24645b845398947e23b149e2642',
-// });
- 
-// spotify.search({ type: 'track', query: 'All the Small Things' }, function(err, data) {
-//   if (err) {
-//     return console.log('Error occurred: ' + err);
-//   }
- 
-// console.log(data); 
-// });
-
-// Functions
-	// Movie function, uses the Request module to call the OMDB api
+// Movie function, uses the Request module to call the OMDB api
 	function movieThis(){
 		var movie = process.argv[3];
 		if(!movie){
@@ -120,7 +103,7 @@ function spotifyThisSong(songName) {
 	};
 
 
-	// Do What It Says function, uses the reads and writes module to access the random.txt file and do what's written in it
+// Do What It Says function, uses the read/write module to access the random.txt file and follows what has been written in it
 	function doWhatItSays() {
 		fs.readFile("random.txt", "utf8", function(error, data){
 			if (!error) {
@@ -131,7 +114,7 @@ function spotifyThisSong(songName) {
 			}
 		});
 	};
-	// Do What It Says function, uses the reads and writes module to access the log.txt file and write everything that returns in terminal in the log.txt file
+// Do What It Says function, uses the read/write module to append the log.txt file 
 	function log(logResults) {
 	  fs.appendFile("log.txt", logResults, (error) => {
 	    if(error) {
