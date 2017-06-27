@@ -1,0 +1,55 @@
+@jj12777: tweets needed for my small programming assignment
+Sun Jun 25 05:38:10 +0000 2017
+------------------------------ 0 ------------------------------
+@jj12777: just testing https://t.co/6pkn87wRlw
+Sun Jun 25 05:30:32 +0000 2017
+------------------------------ 1 ------------------------------
+@jj12777: Just setting up my Twitter. #myfirstTweet
+Sun Jun 25 05:10:07 +0000 2017
+------------------------------ 2 ------------------------------
+@jj12777: tweets needed for my small programming assignment
+Sun Jun 25 05:38:10 +0000 2017
+------------------------------ 0 ------------------------------
+@jj12777: Just setting up my Twitter. #myfirstTweet
+Sun Jun 25 05:10:07 +0000 2017
+------------------------------ 2 ------------------------------
+@jj12777: just testing https://t.co/6pkn87wRlw
+Sun Jun 25 05:30:32 +0000 2017
+------------------------------ 1 ------------------------------
+@jj12777: tweets needed for my small programming assignment
+Sun Jun 25 05:38:10 +0000 2017
+-------------------- 0 --------------------
+@jj12777: just testing https://t.co/6pkn87wRlw
+Sun Jun 25 05:30:32 +0000 2017
+-------------------- 1 --------------------
+@jj12777: Just setting up my Twitter. #myfirstTweet
+Sun Jun 25 05:10:07 +0000 2017
+-------------------- 2 --------------------
+@jj12777: tweets needed for my small programming assignment
+Sun Jun 25 05:38:10 +0000 2017
+-------------------- 0 --------------------
+@jj12777: just testing https://t.co/6pkn87wRlw
+Sun Jun 25 05:30:32 +0000 2017
+-------------------- 1 --------------------
+@jj12777: Just setting up my Twitter. #myfirstTweet
+Sun Jun 25 05:10:07 +0000 2017
+-------------------- 2 --------------------
+@jj12777: tweets needed for my small programming assignment
+Sun Jun 25 05:38:10 +0000 2017
+-------------------- 0 --------------------
+@jj12777: just testing https://t.co/6pkn87wRlw
+Sun Jun 25 05:30:32 +0000 2017
+-------------------- 1 --------------------
+@jj12777: Just setting up my Twitter. #myfirstTweet
+Sun Jun 25 05:10:07 +0000 2017
+-------------------- 2 --------------------
+@jj12777: tweets needed for my small programming assignment
+Sun Jun 25 05:38:10 +0000 2017
+-------------------- 0 --------------------
+@jj12777: just testing https://t.co/6pkn87wRlw
+Sun Jun 25 05:30:32 +0000 2017
+-------------------- 1 --------------------
+@jj12777: Just setting up my Twitter. #myfirstTweet
+Sun Jun 25 05:10:07 +0000 2017
+-------------------- 2 --------------------
+Argument: spotify-this-song. Movie or Song Title: undefined. Movie or Song info: undefined.Argument: spotify-this-song. Movie or Song Title: The Sign. Movie or Song info: undefined.Argument: spotify-this-song. Movie or Song Title: The Sign. Movie or Song info: undefined.
